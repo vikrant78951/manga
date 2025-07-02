@@ -92,8 +92,8 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 This project is open source under the [MIT License](LICENSE).
 
 ## 📜 Web Refrence
-- [viz]:(https://www.viz.com/)   
-- [crunchyroll]:(https://www.crunchyroll.com/)
+- [viz](https://www.viz.com/)   
+- [crunchyroll](https://www.crunchyroll.com/)
 
 ## 📜 Design Refrence
 - [1:UI](https://www.figma.com/design/QzB7Q9VY0ggVo1qD6NOysq/Manga-App-UI--Community-?node-id=0-1&p=f&t=Gz6xifngckq6H4AO-0)   
