@@ -19,9 +19,9 @@ export const NAVIGATIONS: NavigationItem[] = [
     description: "Same structure, but for anime",
   },
     {
-    label: "Anime",
-    path: "/anime",
-    description: "Same structure, but for anime",
+    label: "Novel",
+    path: "/novel",
+    description: "Web Novel",
   },
   {
     label: "Search",

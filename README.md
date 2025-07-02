@@ -102,4 +102,6 @@ This project is open source under the [MIT License](LICENSE).
 - [4:UI](https://www.figma.com/design/l7jjuKiqpnAGVvcKpjE2cf/Manga-Fusion-UI--Community-?node-id=0-1&p=f&t=SzNDaa5kRlxzWmpw-0)
 - [4:UI](https://dribbble.com/shots/26107907-AnimeUniverse-Your-Ultimate-Anime-Streaming-Experience)
 - [5:UI](https://www.figma.com/design/cJJRebxZsqZiabLPkn49dI/Gaming-website-sample--Community-?node-id=0-1&p=f&t=zMWbjqLAs4UsMz6k-0)
+- [5:UGame UI](https://wp.nkdev.info/youplay/main/)
+- [5:UGame UI](https://wp.nkdev.info/youplay/main/)
 
