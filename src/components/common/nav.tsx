@@ -20,7 +20,7 @@ const NavItem = ({
         className={cn(
           "font-light transition-colors  flex items-center p-1 hover:text-primary text-foreground/70",
           // isActive && "bg-gradient-to-t from-primary/50  to-transparent"
-          isActive && "text-primary"
+          isActive && "text-primary",
         )}
       >
         {item.label}

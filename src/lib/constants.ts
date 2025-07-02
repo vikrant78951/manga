@@ -1,6 +1,4 @@
-
-import type {NavigationItem} from '@/src/lib/defination'
-
+import type { NavigationItem } from "@/src/lib/defination";
 
 export const NAVIGATIONS: NavigationItem[] = [
   {
@@ -18,7 +16,7 @@ export const NAVIGATIONS: NavigationItem[] = [
     path: "/anime",
     description: "Same structure, but for anime",
   },
-    {
+  {
     label: "Novel",
     path: "/novel",
     description: "Web Novel",

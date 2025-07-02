@@ -10,6 +10,7 @@ An open, legal, and fully immersive platform dedicated to manga and anime fans a
 2. Maintain a rich **Manga & Anime List** (Top charts, genre filters, etc.)
 3. Provide legal links to **Official Sites** (Where to read/watch)
 4. Track his whitelist
+
 ---
 
 ## 💰 Monetization Model
@@ -39,17 +40,17 @@ An open, legal, and fully immersive platform dedicated to manga and anime fans a
 
 - **Frontend**: [Next.js](https://nextjs.org/) + [ShadCN UI](https://ui.shadcn.com/) + [GraphQl](https://graphql.org/)
 - **Database**: MongoDB (Optional, for caching or user preferences)
-- **Hosting**: Vercel 
+- **Hosting**: Vercel
 
 ---
 
 ## 📦 APIs Used
 
-| Source     | API Link                                           | Purpose                          |
-|------------|----------------------------------------------------|----------------------------------|
-| 🐉 Jikan     | [jikan.moe](https://jikan.moe/)                     | MyAnimeList data (unofficial)   |
-| 🧠 AniList  | [anilist.gitbook.io](https://anilist.gitbook.io/anilist-apiv2-docs/) | GraphQL-based manga/anime data |
-| 🐱 Kitsu     | [kitsu.docs.apiary.io](https://kitsu.docs.apiary.io/) | Manga metadata & relationships  |
+| Source     | API Link                                                             | Purpose                        |
+| ---------- | -------------------------------------------------------------------- | ------------------------------ |
+| 🐉 Jikan   | [jikan.moe](https://jikan.moe/)                                      | MyAnimeList data (unofficial)  |
+| 🧠 AniList | [anilist.gitbook.io](https://anilist.gitbook.io/anilist-apiv2-docs/) | GraphQL-based manga/anime data |
+| 🐱 Kitsu   | [kitsu.docs.apiary.io](https://kitsu.docs.apiary.io/)                | Manga metadata & relationships |
 
 ---
 
@@ -92,11 +93,13 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 This project is open source under the [MIT License](LICENSE).
 
 ## 📜 Web Refrence
-- [viz](https://www.viz.com/)   
+
+- [viz](https://www.viz.com/)
 - [crunchyroll](https://www.crunchyroll.com/)
 
 ## 📜 Design Refrence
-- [1:UI](https://www.figma.com/design/QzB7Q9VY0ggVo1qD6NOysq/Manga-App-UI--Community-?node-id=0-1&p=f&t=Gz6xifngckq6H4AO-0)   
+
+- [1:UI](https://www.figma.com/design/QzB7Q9VY0ggVo1qD6NOysq/Manga-App-UI--Community-?node-id=0-1&p=f&t=Gz6xifngckq6H4AO-0)
 - [2:mobile app](https://www.figma.com/design/yuue02B7FgJwHu56QJqCX6/Comic-Mobile-App--Community-?node-id=0-1&p=f&t=dt3Enlrnpv3mJQX8-0)
 - [3:mobile app](https://www.figma.com/design/hjXIMTUDWxYMZqrbRzVjMD/Manga---Webtoon-App--Community-?node-id=9-56&p=f&t=9txGoLUHgVaSU6pJ-0)
 - [4:UI](https://www.figma.com/design/l7jjuKiqpnAGVvcKpjE2cf/Manga-Fusion-UI--Community-?node-id=0-1&p=f&t=SzNDaa5kRlxzWmpw-0)
@@ -104,4 +107,3 @@ This project is open source under the [MIT License](LICENSE).
 - [5:UI](https://www.figma.com/design/cJJRebxZsqZiabLPkn49dI/Gaming-website-sample--Community-?node-id=0-1&p=f&t=zMWbjqLAs4UsMz6k-0)
 - [5:UGame UI](https://wp.nkdev.info/youplay/main/)
 - [5:UGame UI](https://wp.nkdev.info/youplay/main/)
-

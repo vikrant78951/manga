@@ -1,6 +1,3 @@
-
-
-
 🏠 Home Page (/)
 Section Name
 Hero
@@ -15,14 +12,14 @@ Filter bar: Genre, Status, Rating, Year
 Tabs: Popular / Top / New / Upcoming
 Grid of manga cards (title, cover, rating)
 Optional sidebar: Most read, Recommendations
-section : 
-Hero	 
-Hot This Week	 
-Top Lists	
-Genre Categories	
-Best of All Time	
-News & Events	
-Detail Page	
+section :
+Hero
+Hot This Week
+Top Lists
+Genre Categories
+Best of All Time
+News & Events
+Detail Page
 
 📰 News Page (/news)
 List of articles: title, thumbnail, date
@@ -50,6 +47,4 @@ Project overview
 Credits (API providers)
 Legal policy on content
 
-
-🔥 Detail Page	In-depth info for each title: synopsis, stats, links
-
+🔥 Detail Page In-depth info for each title: synopsis, stats, links

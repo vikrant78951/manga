@@ -1,13 +1,9 @@
-import { expect, test } from "vitest";
+import {  test } from "vitest";
 import { render, screen } from "@testing-library/react";
-import Page from "../app/page";
+import Page from "@/app/page";
 
-test("Page", () => {
+test("renders Hero slider buttons", () => {
   render(<Page />);
-  expect(
-    screen.getByRole("heading", {
-      level: 1,
-      name: "Next Js with Shadcn + Typescript + Git Actions + Test",
-    }),
-  ).toBeDefined();
+  screen.getByLabelText("Next slide");
+  screen.getByLabelText("Previous slide");
 });

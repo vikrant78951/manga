@@ -1,14 +1,19 @@
-import {cn} from '@/src/lib/utils';
+import { cn } from "@/src/lib/utils";
 
 interface LogoProps {
-  className?: string,
+  className?: string;
 }
 
 const Logo: React.FC<LogoProps> = ({ className }) => {
   return (
-    <div className={cn(className, 'flex justify-center items-center text-2xl font-bold')}>
+    <h1
+      className={cn(
+        className,
+        "flex justify-center items-center text-2xl font-bold",
+      )}
+    >
       Logo
-    </div>
+    </h1>
   );
 };
 
