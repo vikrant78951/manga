@@ -10,11 +10,18 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ className }) => {
   return (
-    <div className={cn(className, " top-0 left-0 right-0  z-10 ")}>
-      <Wrapper className="flex items-center justify-between py-6">
+    <div
+      className={cn(
+        className,
+        "fixed  top-0 left-0 right-0  z-10  bg-background/10 backdrop-blur-lg z-20 "
+      )}
+    >
+      <Wrapper className="flex items-center justify-between p-5  ">
         <Logo />
-        <Nav />
-        <SearchBar />
+        <div className="flex items-center gap-4">
+          <Nav />
+          <SearchBar />
+        </div>
       </Wrapper>
     </div>
   );

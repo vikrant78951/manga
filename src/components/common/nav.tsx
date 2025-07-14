@@ -18,9 +18,9 @@ const NavItem = ({
       <Link
         href={item.path}
         className={cn(
-          "font-light transition-colors  flex items-center p-1 hover:text-primary text-foreground/70",
-          // isActive && "bg-gradient-to-t from-primary/50  to-transparent"
-          isActive && "text-primary",
+          "font-light transition-colors  flex items-center p-1 px-2 rounded text-foreground/70",
+          " hover:text-white ",
+          isActive && "text-white font-semibold   "
         )}
       >
         {item.label}

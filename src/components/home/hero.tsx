@@ -4,11 +4,12 @@ import { cn } from "@/src/lib/utils";
 import Wrapper from "@/src/components/ui/wrapper";
 import { Navigation, Mousewheel, A11y, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { ChevronRight, ChevronLeft } from "lucide-react";
+import { ChevronRight, ChevronLeft, PlaySquare } from "lucide-react";
 import Image from "next/image";
 import { useRef } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
+import { Button } from "../ui/button";
 
 interface HeroProps {
   className?: string;
@@ -17,7 +18,6 @@ interface HeroProps {
 const dummy = [
   "https://media.kitsu.app/anime/cover_images/6448/original.jpg",
   "https://media.kitsu.app/anime/cover_images/3936/original.jpg",
-  "https://media.kitsu.app/anime/cover_images/7442/original.png",
   "https://media.kitsu.app/anime/cover_images/8699/original.jpg",
 ];
 
@@ -53,10 +53,10 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           spaceBetween={0}
           slidesPerView={1}
           loop={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 3000,
+          //   disableOnInteraction: false,
+          // }}
           navigation={{
             prevEl: prevRef.current,
             nextEl: nextRef.current,
@@ -70,17 +70,39 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
               swiper.params.navigation.nextEl = nextRef.current;
             }
           }}
-          className="w-full h-full max-h-150 border rounded-2xl overflow-hidden"
+          className="relative "
         >
           {dummy.map((image, index) => (
-            <SwiperSlide key={`image-${index}`}>
+            <SwiperSlide key={`image-${index}`} className=" ">
               <Image
                 src={image}
                 alt={`anime-${index}`}
                 width={300}
                 height={300}
-                className="h-full w-full object-cover"
+                className="absolute z-0 w-full object-cover  "
               />
+              <div className="absolute w-full  bg-background/50  min-h-[600]  " />
+              <div className="relative bg-gradient-to-r from-background  via-transparent to-background flex  p-6 md:p-8 lg:p-10  min-h-[600]  ">
+                <div className="flex self-end flex-col gap-4 items-start ">
+                  <h1 className="text-primary ">#6 Spotlight</h1>
+                  <div className="text-3xl font-bold ">Clevatess</div>
+                  <div className="text-md max-w-10/12 ">
+                    Alicia, who had dreamed of becoming a hero since childhood,
+                    is chosen by the king as one of the thirteen heroes. Armed
+                    with a legendary sword, the heroes set out to defeat the
+                    Demon King Clevatess. However, their recklessness triggers a
+                    terrible crisis that could wipe out all of humanity on the
+                    continent of Edsea. Now, the world&apos;s only hope lies with a
+                    baby entrusted to the Demon King.
+                  </div>
+                  <Button>
+                    <span>
+                      <PlaySquare />
+                    </span>
+                    Watch Now
+                  </Button>
+                </div>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
