@@ -10,4 +10,3 @@ export const cursive = Dancing_Script({
   subsets: ["latin"],
   weight: "600",
 });
-

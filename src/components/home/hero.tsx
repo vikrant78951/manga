@@ -92,8 +92,8 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                     with a legendary sword, the heroes set out to defeat the
                     Demon King Clevatess. However, their recklessness triggers a
                     terrible crisis that could wipe out all of humanity on the
-                    continent of Edsea. Now, the world&apos;s only hope lies with a
-                    baby entrusted to the Demon King.
+                    continent of Edsea. Now, the world&apos;s only hope lies
+                    with a baby entrusted to the Demon King.
                   </div>
                   <Button>
                     <span>

@@ -11,7 +11,7 @@ const Logo: React.FC<LogoProps> = ({ className }) => {
       className={cn(
         className,
         "flex justify-center items-center text-2xl   tracking-wider",
-        cursive.className
+        cursive.className,
       )}
     >
       Manganni

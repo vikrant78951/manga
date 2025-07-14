@@ -20,7 +20,7 @@ const NavItem = ({
         className={cn(
           "font-light transition-colors  flex items-center p-1 px-2 rounded text-foreground/70",
           " hover:text-white ",
-          isActive && "text-white font-semibold   "
+          isActive && "text-white font-semibold   ",
         )}
       >
         {item.label}

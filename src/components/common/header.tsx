@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
     <div
       className={cn(
         className,
-        "fixed  top-0 left-0 right-0  z-10  bg-background/10 backdrop-blur-lg z-20 "
+        "fixed  top-0 left-0 right-0  z-10  bg-background/10 backdrop-blur-lg z-20 ",
       )}
     >
       <Wrapper className="flex items-center justify-between p-5  ">
