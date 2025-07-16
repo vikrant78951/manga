@@ -11,3 +11,14 @@ export type MangaCardProps = {
   imageUrl: string;
   category: string;
 };
+
+
+export type NewsCardProps = {
+  id?: string | number;
+  title: string;
+  description: string;
+  imageUrl: string;
+  category: string;
+  dat?: string;
+  link?: string;
+};

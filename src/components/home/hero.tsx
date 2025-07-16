@@ -82,7 +82,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
                 className="absolute z-0 w-full object-cover  "
               />
               <div className="absolute w-full  bg-background/50  min-h-[600]  " />
-              <div className="relative bg-gradient-to-r from-background  via-transparent to-background flex  p-6 md:p-8 lg:p-10  min-h-[600]  ">
+              <div className="relative bg-gradient-to-r from-background via-background/70  to-transparent flex  p-6 md:p-8 lg:p-10  min-h-[600]  ">
                 <div className="flex self-end flex-col gap-4 items-start ">
                   <h1 className="text-primary ">#6 Spotlight</h1>
                   <div className="text-3xl font-bold ">Clevatess</div>
