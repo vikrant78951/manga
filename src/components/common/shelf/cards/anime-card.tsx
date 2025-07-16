@@ -25,7 +25,13 @@ const CardComponent: React.FC<CardProps> = ({ className, data }) => {
         <CardDescription>{data.description}</CardDescription>
       </CardHeader>
       <CardContent>
-        <Image src={data.imageUrl} alt={data.title} width={200} height={300} className="w-full h-auto" />
+        <Image
+          src={data.imageUrl}
+          alt={data.title}
+          width={200}
+          height={300}
+          className="w-full h-auto"
+        />
       </CardContent>
       <CardFooter>
         <CardAction>Action</CardAction>

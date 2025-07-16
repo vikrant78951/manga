@@ -19,7 +19,7 @@ const CardComponent: React.FC<CardProps> = ({ className, data }) => {
     <Card
       className={cn(
         " p-0 relative rounded  overflow-hidden h-60 cursor-pointer group",
-        className
+        className,
       )}
     >
       <Image

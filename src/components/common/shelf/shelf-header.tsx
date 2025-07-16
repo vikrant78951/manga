@@ -10,7 +10,7 @@ const CardHeader: React.FC<CardHeaderProps> = ({ className, text }) => {
     <div
       className={cn(
         "text-foreground sm:lg md:text-xl  lg:text-2xl font-bold ",
-        className
+        className,
       )}
     >
       {text}
