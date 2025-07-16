@@ -1,5 +1,4 @@
 🏠 Home Page (/)
-Section Name
 Hero
 Hot This Week
 Top Lists

@@ -7,9 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { ChevronRight, ChevronLeft, PlaySquare } from "lucide-react";
 import Image from "next/image";
 import { useRef } from "react";
+import { Button } from "../ui/button";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Button } from "../ui/button";
 
 interface HeroProps {
   className?: string;
@@ -53,10 +53,10 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
           spaceBetween={0}
           slidesPerView={1}
           loop={true}
-          // autoplay={{
-          //   delay: 3000,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
           navigation={{
             prevEl: prevRef.current,
             nextEl: nextRef.current,

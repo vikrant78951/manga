@@ -5,7 +5,21 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ["media.kitsu.app"],
+    domains: ["media.kitsu.app","cdn.noitatnemucod.net"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "media.kitsu.app",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.noitatnemucod.net",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
 };
 
