@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "@/src/lib/utils";
-import {NewsCardProps} from "@/src/lib/defination"
+import { NewsCardProps } from "@/src/lib/defination";
 import {
   Card,
   CardContent,

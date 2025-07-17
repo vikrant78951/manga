@@ -1,10 +1,10 @@
 🏠 Home Page (/)
-Hero
+Hero 🗸
 Hot This Week
-Top Lists
-Genre Categories
+Top Lists 🗸
 Best of All Time
-News & Events
+News & Events 🗸
+Footer 
 
 📚 Manga Page (/manga) , Anime, Web Novel
 Filter bar: Genre, Status, Rating, Year
@@ -46,4 +46,5 @@ Project overview
 Credits (API providers)
 Legal policy on content
 
-🔥 Detail Page In-depth info for each title: synopsis, stats, links
+
+

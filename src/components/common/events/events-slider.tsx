@@ -36,23 +36,23 @@ const CardSliderContainer: React.FC<CardSliderContainerProps> = ({
         modules={[Navigation, A11y, Mousewheel]}
         slidesPerView={1}
         loop={true}
-         autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          navigation={{
-            prevEl: prevRef.current,
-            nextEl: nextRef.current,
-          }}
-          onBeforeInit={(swiper) => {
-            if (
-              swiper.params.navigation &&
-              typeof swiper.params.navigation !== "boolean"
-            ) {
-              swiper.params.navigation.prevEl = prevRef.current;
-              swiper.params.navigation.nextEl = nextRef.current;
-            }
-          }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        navigation={{
+          prevEl: prevRef.current,
+          nextEl: nextRef.current,
+        }}
+        onBeforeInit={(swiper) => {
+          if (
+            swiper.params.navigation &&
+            typeof swiper.params.navigation !== "boolean"
+          ) {
+            swiper.params.navigation.prevEl = prevRef.current;
+            swiper.params.navigation.nextEl = nextRef.current;
+          }
+        }}
         className={cn(className, "px-4")}
         onInit={() => setIsReady(true)}
       >

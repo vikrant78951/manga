@@ -36,12 +36,7 @@ function renderCard<T>(item: T, index: number, eventType: EventTypes) {
   }
 }
 
-function Events<T>({
-  title,
-  items,
-  className,
-  eventType,
-}: EventsProps<T>) {
+function Events<T>({ title, items, className, eventType }: EventsProps<T>) {
   return (
     <section className={cn("", className)}>
       <Wrapper>

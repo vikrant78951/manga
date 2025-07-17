@@ -12,7 +12,6 @@ export type MangaCardProps = {
   category: string;
 };
 
-
 export type NewsCardProps = {
   id?: string | number;
   title: string;
