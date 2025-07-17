@@ -4,7 +4,7 @@ Hot This Week
 Top Lists 🗸
 Best of All Time
 News & Events 🗸
-Footer 
+Footer  🗸
 
 📚 Manga Page (/manga) , Anime, Web Novel
 Filter bar: Genre, Status, Rating, Year

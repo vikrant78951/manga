@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/src/components/common/theme-provider";
 import Header from "@/src/components/common/header";
 import { geistSans } from "@/lib/fonts";
 import "./globals.css";
+import Footer from "@/src/components/common/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,6 +26,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <main>{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

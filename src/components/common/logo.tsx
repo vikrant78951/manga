@@ -1,5 +1,6 @@
 import { cn } from "@/src/lib/utils";
 import { cursive } from "@/lib/fonts";
+import { SITE_NAME } from "@/src/lib/constants";
 
 interface LogoProps {
   className?: string;
@@ -14,7 +15,7 @@ const Logo: React.FC<LogoProps> = ({ className }) => {
         cursive.className,
       )}
     >
-      Manganni
+      {SITE_NAME}
     </h1>
   );
 };

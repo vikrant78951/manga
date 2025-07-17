@@ -37,7 +37,7 @@ function renderCard<T>(item: T, index: number, newsType: NewsType) {
   }
 }
 
-function News<T>({ title, items, className, newsType }: NewsProps<T>) {
+function News<T>({ title, items, events, className, newsType }: NewsProps<T>) {
   return (
     <section className={cn("", className)}>
       <Wrapper className="grid grid-cols-1 lg:grid-cols-3  gap-4 lg:gap-6">
@@ -51,7 +51,7 @@ function News<T>({ title, items, className, newsType }: NewsProps<T>) {
         </div>
         <Events
           title="Latest Events"
-          items={items}
+          items={events}
           eventType="event"
           className="h-full"
         />

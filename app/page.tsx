@@ -25,9 +25,12 @@ export default function Home() {
         shelfType="manga"
         className="my-16"
       />
-      <News items={TRENDING_MANGA} newsType="news" title="News & Events" />
-      <div className="h-screen"></div>
-      <div className="h-screen"></div>
+      <News
+        items={TRENDING_MANGA}
+        events={TRENDING_MANGA}
+        newsType="news"
+        title="News & Events"
+      />
     </>
   );
 }
