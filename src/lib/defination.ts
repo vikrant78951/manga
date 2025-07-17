@@ -4,10 +4,9 @@ export type NavigationItem = {
   description: string;
 };
 
-export interface FooterLinks  {
-  [key:string]:NavigationItem[] ;
-};
-
+export interface FooterLinks {
+  [key: string]: NavigationItem[];
+}
 
 export type MangaCardProps = {
   id?: string | number;
