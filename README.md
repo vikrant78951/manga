@@ -107,3 +107,4 @@ This project is open source under the [MIT License](LICENSE).
 - [5:UI](https://www.figma.com/design/cJJRebxZsqZiabLPkn49dI/Gaming-website-sample--Community-?node-id=0-1&p=f&t=zMWbjqLAs4UsMz6k-0)
 - [5:UGame UI](https://wp.nkdev.info/youplay/main/)
 - [5:UGame UI](https://wp.nkdev.info/youplay/main/)
+- [6:Anime Site](https://themewagon.github.io/anime/)
